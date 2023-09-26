@@ -14,7 +14,7 @@ pyspark 2.4.4
 
 On running the run_data_pipeline.py it will do the following things in order:
 1) Generate a sample file "sample_data.json" in the data folder of the repo with the help of faker module
-2) Start the ingestion process and ingest all the raw data into a table name "raw" after enriching with transaction_date and load _date
+2) Start the ingestion process (with built in DQ check) and ingest all the raw data into a table name "raw" after enriching with transaction_date and load _date
 3) Start the transformation process that will extract data from the raw table in step1 and generate adhoc analysis tables as well as a star schema(fact/dim) to answer some business questions
 4) Show the 20 sample rows for each business question as asked in the assessment. (This is the gold layer).
    
