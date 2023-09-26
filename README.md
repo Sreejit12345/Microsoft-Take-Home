@@ -58,6 +58,7 @@ only showing top 20 rows
 
 Product Dimension
 
+
 +------------------------------------+-----------+------------+---------+
 |productId                           |productName|category    |unitPrice|
 +------------------------------------+-----------+------------+---------+
@@ -85,6 +86,7 @@ Product Dimension
 only showing top 20 rows
 
 Date Dimension
+
 
 +----------+---+-----+----+
 |dates     |day|month|year|
