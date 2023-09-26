@@ -3,6 +3,7 @@ This is a repo that contains a solution to the Microsoft take home assesment.
 
 Prerequisites To Run:
 
+
 Python 3.7
 
 Faker 18.13.0
