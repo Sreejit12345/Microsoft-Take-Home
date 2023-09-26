@@ -82,7 +82,10 @@ def generate_sample_data():
 
         records.append(record)
 
-    # write to a JSON file
+    if not os.path.exists(new_path):
+        os.makedirs(new_path)
+
+    #rite to a JSON file
     with open(f"{new_path}\\sample_data.json", "w") as json_file:
         json.dump(records, json_file, indent=2)
 
